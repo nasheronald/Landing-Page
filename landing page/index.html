@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lp.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Landing Page</title>
+</head>
+<body>
+    <header id="header">
+        <nav id="nav-bar" class="navbar">
+                <img id="header-img" width="40px" src="https://tvoe-avto.com/wp-content/uploads/mercedes-benz-logo-vector-symbol-three-pointed-star.jpg" alt="mercedes-logo">
+                <a href="#landing-page">home</a> 
+                <a href="#black">about</a>
+                <a href="#footer">contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </nav>
+        <script>
+            function myFunction() {
+              var x = document.getElementById("nav-bar");
+              if (x.className === "navbar") {
+                x.className += " responsive";
+              } else {
+                x.className = "navbar";
+              }
+            }
+            </script>
+    </header>
+    <!--LANDING PAGE-->
+    <section id="landing-page">
+        <div class="container">
+            <div class="tag"><h3 class="tag-1">style</h3></div>
+            <div class="picture-1" class="container-image"></div>
+        </div>
+
+        <div class="container">
+            <div class="picture-2" class="container-image"></div>
+            <div class="tag"><h3 class="tag-2">class</h3></div>
+        </div>
+
+        <div class="landing-page-tag">
+            <div class="info-tag">
+                <h4>luxury</h4>
+            <p>the greatest refinement out there paired with technological brilliance</p>
+            </div>
+            
+        
+         <div class="info-tag">
+            <h4>362hp</h4>
+            <p>the greatest refinement out there paired with technological brilliance</p></div>
+               
+        
+         <div class="info-tag">
+            <h4>twin turbo</h4>
+            <p>the greatest refinement out there paired with technological brilliance</p>
+         </div>
+            
+        </div>
+
+    </section>
+
+   
+
+    <section id="black">
+        <div class="black-car"></div>
+    </section>
+
+        
+    <section id="video-container">
+        <div class="video-tag">
+            <p>The New S-Class</p>
+            <h5>Cares For What Matters!</h5>
+        </div>
+        <div class="iframe-container"> 
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/-4zsY28t76k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
+
+    </section>
+
+   <footer id="footer">
+
+    <div class="footer-col" style="padding-left: clamp(1.25rem, -0.1563rem + 6.2500vw, 3.125rem);">
+        <h6>Discover more</h6>
+            <ul>
+                <li>Newsroom</li>
+                <li>Press</li>
+                <li>Career</li>
+                <li>Heycar</li>
+            </ul>
+    </div>
+
+    <div class="footer-main-col">
+        <form id="form" action="https://www.freecodecamp.com/email-submit).">
+            <input
+            class="inputabs"
+            id="text"
+             type="text"
+              name="text" 
+              placeholder="care for a spin"
+              required>
+        <br>
+     
+        <input 
+        class="inputabs"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="sirglory@yahoo.com"
+            required>
+            <br>
+     
+        <input 
+        type="submit"
+        id="submit"
+        value="lets talk"
+        class="submit">
+        </form>
+    </div>
+    <div class="footer-col" style="padding-right: 15px;">
+        <h6>All about cars</h6>
+           <ul>
+               <li>Model Overview</li>
+               <li>Configuration</li>
+               <li>Test Drive</li>
+               <li>RDE</li>
+           </ul>
+    </div>
+   
+   </footer>
+    
+    
+</body>
+</html>

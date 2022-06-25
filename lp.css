@@ -71,7 +71,7 @@ body{
 #landing-page  .picture-1{
    height: clamp(18rem, 5.2500rem + 56.6667vw, 35rem);
     width: 70%;
-    background-image: url("images/");
+    background-image: url("images/banner_merc.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -79,7 +79,7 @@ body{
 #landing-page  .picture-2{
     height: clamp(18rem, 5.2500rem + 56.6667vw, 35rem);
     width: 70%;
-    background-image: url("images/");
+    background-image: url("images/2021-Mercedes-Star-In-Ring-100th-Anniversary-9.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
